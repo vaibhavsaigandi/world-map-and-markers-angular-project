@@ -1,0 +1,95 @@
+    /* #text {
+        position: absolute;
+        margin-top: -16%;
+        margin-left: 65.250%;
+        z-index: 0;
+        font-weight: 800;
+    } */
+    
+    #marker1 {
+        position: absolute;
+        margin-top: -16.75%;
+        margin-left: 65.50%;
+        z-index: 0;
+        visibility: hidden;
+    }
+    
+    #marker2 {
+        position: absolute;
+        top: 33.75%;
+        left: 29.50%;
+        z-index: 0;
+        visibility: hidden;
+    }
+    
+    #marker3 {
+        position: absolute;
+        top: 30.75%;
+        left: 33.50%;
+        z-index: 0;
+        visibility: hidden;
+    }
+    
+    #marker4 {
+        position: absolute;
+        top: 32.75%;
+        left: 73.50%;
+        z-index: 0;
+        visibility: hidden;
+    }
+    
+    #marker5 {
+        position: absolute;
+        top: 27.55%;
+        left: 56.250%;
+        z-index: 0;
+        visibility: hidden;
+    }
+    
+    #marker6 {
+        position: absolute;
+        top: 61.75%;
+        left: 85.70%;
+        z-index: 0;
+        visibility: hidden;
+    }
+    
+    #worldimage {
+        position: relative;
+        margin-top: 6%;
+        margin-left: 300px;
+        z-index: -2;
+    }
+    
+    #delhimarker {
+        font-weight: bolder;
+        z-index: 1;
+    }
+    
+    #Washingtonmarker {
+        font-weight: bolder;
+        z-index: 1;
+    }
+    
+    #Ottawamarker {
+        font-weight: bolder;
+        z-index: 1;
+    }
+    
+    #Beijingmaker {
+        font-weight: bolder;
+        z-index: 1;
+    }
+    
+    #Moscowmarker {
+        font-weight: bolder;
+        z-index: 1;
+    }
+    
+    #Wellingtonmarker {
+        font-weight: bolder;
+        z-index: 1;
+    }
+    /* #markers{
+        visibility: hidden;
+    } */

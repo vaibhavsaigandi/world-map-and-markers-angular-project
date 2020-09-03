@@ -1,0 +1,69 @@
+<body>
+    <div style="text-align:center">
+        <h2>
+            Country list from local json file...
+        </h2>
+        <!-- <ul *ngFor="let item of countryList">
+        <li>
+            <h3>Country Name :{{item.name}}, Code: {{item.code}}</h3>
+        </li>
+    </ul> -->
+
+        <div style="margin-right: 20px;display: inline;"><select (change)="selectChangeHandler($event)">
+        <option *ngFor="let item of countryList">{{item.name}}</option>
+    </select></div>
+
+        <div style="margin-right: 20px;display: inline;"><select (change)="selectChangeHandler2($event)">
+        <option *ngFor="let item of countryList">{{item.code}}</option>
+    </select></div>
+
+        <div style="margin-right: 20px;display: inline;">
+            <input type="button" value="DisplayCountry" (click)="displayValues1()" style="width: max-content;">
+        </div>
+        <div style="margin-right: 20px;display: inline;">
+            <input type="button" value="DisplayCapital" (click)="displayValues2()" style="width: max-content;">
+        </div>
+        <div style="margin-right: 20px;display: inline;">
+            <input type="button" value="ResetValues" (click)="resetValues()" style=" width: max-content; ">
+        </div>
+        <!-- 
+        <p id="selectcountry " style="margin-right: 20px;display: inline; ">You selected: </p>
+        <div *ngIf="expression " style="display: inline;margin-right: 20px; ">{{selectedCountry}}</div>
+
+        <p id="selectcode " style="margin-right: 20px;display: inline; ">You selected: </p>
+        <div style="display: inline; " *ngIf="expression1 ">{{selectedCode}}</div> -->
+        <div class="allmarkers">
+            <div id="worldimage" style="align-content: center; ">
+                <img src="assets/images/map.png " alt="worldmap " width="1500 " height="500 ">
+
+            </div>
+
+            <div id="marker1" style="align-content: center; ">
+                <img src="assets/images/pointer.png " alt="marker " width="25 " height="25 ">
+                <span id="delhimarker">Delhi</span>
+            </div>
+            <div id="marker2" style="align-content: center; ">
+                <img src="assets/images/pointer.png " alt="marker " width="25 " height="25 ">
+                <span id="Washingtonmarker">Washington D.C</span>
+            </div>
+            <div id="marker3" style="align-content: center; ">
+                <img src="assets/images/pointer.png " alt="marker " width="25 " height="25 ">
+                <span id="Ottawamarker">Ottawa</span>
+            </div>
+            <div id="marker4" style="align-content: center; ">
+                <img src="assets/images/pointer.png " alt="marker " width="25 " height="25 ">
+                <span id="Beijingmaker">Beijing</span>
+            </div>
+            <div id="marker5" style="align-content: center; ">
+                <img src="assets/images/pointer.png " alt="marker " width="25 " height="25 ">
+                <span id="Moscowmarker">Moscow</span>
+            </div>
+            <div id="marker6" style="align-content: center; ">
+                <img src="assets/images/pointer.png " alt="marker " width="25 " height="25 ">
+                <span id="Wellingtonmarker">Wellington</span>
+            </div>
+            <!-- <div id="text">hello</div> -->
+        </div>
+    </div>
+
+</body>
